@@ -1,0 +1,72 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.mood-button {
+    display: inline-block;
+}
+
+label {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 10px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    position: relative;
+    line-height: normal;
+    font-size: 69px;
+}
+
+input[type="radio"] {
+    position: absolute;
+    cursor: pointer;
+}
+
+input:checked + label {
+    background: red; /* Change the label background when the input is checked */
+}
+
+textarea {
+    width: 330px;
+    height: 100px;
+    font-size: 16px;
+}
+
+li {
+    text-align: left;
+}
+
+.day-label {
+    font-weight: bold;
+    display: inline;
+    padding-right: 10px;
+}
+
+ol {
+    text-align:left;
+}
+
+.remove-button {
+    background: red;
+}
+
+.day-values {
+    padding: 10px;
+    display: inline;
+}
+
+div {
+    font-size: 24px;
+}
+
+.mood-form {
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem; /* Add padding for spacing */S
+}
